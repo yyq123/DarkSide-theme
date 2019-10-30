@@ -2,13 +2,13 @@
 
 > A dark theme for [ConEmu](http://conemu.github.io) based on [DraculaTheme](https://draculatheme.com/conemu) .
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/conemu.png)
+![Screenshot](https://yyq123.github.io/DarkSide-theme/conemu/DarkSide-ConEmu.png)
 
 ## Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
-`
-$ git clone https://github.com/dracula/conemu.git`
+
+`$ git clone https://github.com/dracula/conemu.git`
 
 ## Install manually
 
@@ -21,6 +21,7 @@ You have to manually modify the ConEmu config file.
 1. Open ConEmu.xml file. It is in the installation directory of ConEmu or the user directory like C:\Users\UserName.
 2. Find the palette definition. It is a xml tag starts with the following code:
 
+`
 <value name="ColorTable00" type="dword" data="00131313"/>
 <value name="ColorTable01" type="dword" data="00bc4354"/>
 <value name="ColorTable02" type="dword" data="00808080"/>
@@ -53,6 +54,7 @@ You have to manually modify the ConEmu config file.
 <value name="ColorTable29" type="dword" data="00ff00ff"/>
 <value name="ColorTable30" type="dword" data="0000ffff"/>
 <value name="ColorTable31" type="dword" data="00ffffff"/>
+`
 
 3. If you don't find the xml above, you may not have any custom color scheme. So open ConEmu Settings dialog (Win+Alt+P), and go to Features -> Colors -> Schemes, enter a name and click Save, then the palette definition will be generated. Close ConEmu.
 4. Replace the color table in the palette tag with the DarkSide color table (see conemu/DarkSide.xml, there are 32 color values), save the ConEmu.xml.
